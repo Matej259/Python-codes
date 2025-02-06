@@ -1,0 +1,8 @@
+def obsah_trojuhelniku(strana, vyska):
+    return 0.5 * strana * vyska
+
+strana = 2
+vyska = 5
+
+obsah = obsah_trojuhelniku(strana, vyska)
+print(f"Obsah trojúhelníku je: {obsah} .")
